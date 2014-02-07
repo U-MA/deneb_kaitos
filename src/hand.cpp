@@ -12,6 +12,8 @@ void Hand::Fill(Deck& deck, int max_size)
 
 void Hand::Discard(int id)
 {
+    hand_[id] = hand_[size_-1];
+    size_--;
 }
 
 void Hand::Print()
