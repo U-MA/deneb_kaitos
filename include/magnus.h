@@ -3,6 +3,10 @@
 
 class Magnus
 {
+public:
+    Magnus() {}
+
+    int id() const { return -1; }
 };
 
 #endif /* DENEB_KAITOS_MAGNUS_H */

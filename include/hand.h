@@ -14,7 +14,7 @@ public:
 
 private:
     int size_;
-    Magnus *hand_[5];
+    Magnus hand_[5];
 };
 
 #endif /* DENEB_KAITOS_HAND_H */

@@ -1,6 +1,7 @@
 #include "Deck.h"
 
-Magnus *Deck::Draw()
+Magnus Deck::Draw() const
 {
-    return NULL;
+    Magnus magnus;
+    return magnus;
 }

@@ -1,4 +1,8 @@
+#include <iostream>
+
 #include "hand.h"
+
+using namespace std;
 
 void Hand::Fill(Deck& deck, int max_size)
 {
@@ -12,4 +16,8 @@ void Hand::Discard(int id)
 
 void Hand::Print()
 {
+    cout << "hand: ";
+    for (int i=0; i < size_; i++)
+        cout << hand_[i].id() << " ";
+    cout << flush;
 }

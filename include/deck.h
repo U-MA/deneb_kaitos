@@ -8,7 +8,7 @@ class Deck
 public:
     Deck() {}
 
-    Magnus *Draw();
+    Magnus Draw() const;
 };
 
 #endif /* DENEB_KAITOS_DECK_H */
