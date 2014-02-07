@@ -18,8 +18,18 @@ void Hand::Discard(int id)
 
 void Hand::Print()
 {
-    cout << "hand: ";
+    cout << "id  :";
     for (int i=0; i < size_; i++)
+    {
+        cout.width(3);
+        cout << i << " ";
+    }
+    cout << endl;
+    cout << "hand:";
+    for (int i=0; i < size_; i++)
+    {
+        cout.width(3);
         cout << hand_[i].id() << " ";
+    }
     cout << flush;
 }
