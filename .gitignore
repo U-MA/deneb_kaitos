@@ -18,3 +18,4 @@
 # For cpputest
 lib/
 objs/
+*tests
