@@ -18,4 +18,4 @@
 # For cpputest
 lib/
 objs/
-*tests
+*_tests
