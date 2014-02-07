@@ -14,3 +14,7 @@
 
 # For Mac
 .DS_Store
+
+# For cpputest
+lib/
+objs/
